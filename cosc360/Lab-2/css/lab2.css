@@ -1,0 +1,77 @@
+body {
+    font-size: 100%;
+    color: black;
+    background-color: #dce9f3;
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+h1,h2,h3,nav,footer {
+    font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 1.5em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+h3 {
+    font-size: 1.25em;
+}
+p {
+    font-size: 1em;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+}
+
+header,footer {
+    background-color: #1b1818e0;
+    color: white;
+    padding: 1.25em;
+
+}
+header h1, footer h1 {
+    text-align: center;
+}
+header nav, footer nav {
+    margin-top: 0.875em;
+    margin-bottom: 0.875em;
+}
+header nav ul, footer nav ul {
+    display: flex; 
+    gap: 1.25em;       
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+section {
+    margin-bottom: 1.25em;
+    margin-top: 1.25em;
+}
+header a, footer a {
+    color: #98dafc;
+    text-decoration: none;
+}
+a::hover {
+    cursor: pointer;
+}
+a::visited {
+    color: #98dafc;
+    text-decoration: none;
+}
+#main{
+    border: 1px solid black;
+    padding: 0.25em;
+    width: 95%
+}
+figure {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+

@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "2f6a56e3f6c7b2f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "69f48752fca1621c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b20f5c8e312c07d3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Topic 2 - OS and Architecture.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Topic 2 - OS and Architecture"
+            }
+          }
+        ]
+      },
+      {
+        "id": "26d4f98bcb370aa7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9e6c15d5d54ceab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Topic 2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4028f488571d213d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f40ea12f379d8425",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6884f1635e749da8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5721cd2f52c5b594",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f024eaf0133a3bdf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "409afe3d9d1219bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c73330b5270c4ebf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c941a21f65aada9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "COSC 315.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for COSC 315"
+            }
+          },
+          {
+            "id": "8c1817d41b16655a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "COSC 315.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from COSC 315"
+            }
+          },
+          {
+            "id": "87eb73f85ffce82a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2041e9175b10317f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "37d3dcc74487b57d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "COSC 315.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of COSC 315"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e9e6c15d5d54ceab",
+  "lastOpenFiles": [
+    "Topic 2 - OS and Architecture.pdf",
+    "Topic 2.md",
+    "Topic 1.md",
+    "Topic 1 - Introduction_to_Operating_Systems_History.pdf",
+    "COSC 315.md"
+  ]
+}

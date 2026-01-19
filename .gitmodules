@@ -1,0 +1,18 @@
+[submodule "cosc315/lab-1-introduction-to-gcc-GraemeIBB"]
+	path = cosc315/lab-1-introduction-to-gcc-GraemeIBB
+	url = https://github.com/UBCO-COSC315-W2025T2/lab-1-introduction-to-gcc-GraemeIBB.git
+[submodule "cosc322/game-of-the-amazons"]
+	path = cosc322/game-of-the-amazons
+	url = https://github.com/graemeibb/game-of-the-amazons.git
+[submodule "y3s1/COSC-310-Project-2025"]
+	path = y3s1/COSC-310-Project-2025
+	url = https://github.com/Null-Pointers-2/COSC-310-Project-2025
+[submodule "y3s1/L02-YOLO"]
+	path = y3s1/L02-YOLO
+	url = https://github.ubc.ca/COSC-O-305-101-O2025W1/L02-YOLO.git
+[submodule "y3s1/L03_SpringBears"]
+	path = y3s1/L03_SpringBears
+	url = https://github.ubc.ca/COSC-O-305-101-O2025W1/L03_SpringBears.git
+[submodule "y3s1/cosc-421-project-2025"]
+	path = y3s1/cosc-421-project-2025
+	url = https://github.com/patrikbalazsy/cosc-421-project-2025.git

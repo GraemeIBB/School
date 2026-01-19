@@ -1,0 +1,13 @@
+a:link {text-decoration: underline; color:blue}
+a:visited { color: red}
+a:hover {color: lavender; background-color: hotpink}
+a:active {font-weight: bold}
+
+#others {
+    font-style: italic;
+    color: brown;
+}
+
+p::first-letter{
+    color: red;
+}

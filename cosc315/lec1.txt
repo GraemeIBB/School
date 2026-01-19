@@ -1,0 +1,87 @@
+Before os
+- Vacuum tube machines
+- Room-sized, bespoke systems
+
+Eniac
+1945: computers were hardwired - 200kz - punchcards. Aided in development and engineering of aircraft
+
+Univac 1
+1951: stored program, machine code / early asm. - sequential access memory - mag tape i/o, slow memory access, first practical stored
+
+IBM 701
+
+1952: asm. crt memory, punch card input, tape-printer output, subroutines, early monitors, proto-os concepts. hardware reliability.
+
+
+
+Core memory
+
+Magnetic-core memory
+- uses tiny magnetized ferrite cores arranged in a grid
+- each core stores one bit
+- wires threaded through cores selects and read/write individual bits
+
+<reliable random access
+- any memory location can be accessed in constant time
+- no waiting for data to circulate (unlike dely lines or drums)
+- random access makes software structure more imporatn than physical memory layout
+>-enabled larger, more complex programs
+
+transistor based dynamic random-access memory (DRAM) introduced in the 1970's changed things
+- initially around the same price as core, dram was smaller and simpler to uses
+
+Even after magnetic core memory was replaced by semiconductor memory, main memory was often still referred to as the 'core'
+
+Stored program concept 
+
+stored program computers place instructions in memory rather than being configured like early machines
+code bcomes: 
+    - data
+    - loadable
+    - replaceable
+    - relocatable
+
+lookup von neumann vs harvard architecture
+
+apple M chips are harvard architecture -> ARM -> advanced risc m...
+
+
+
+Life w/o OS 
+
+one progrma at a time
+    early machines were single-job systems
+manual setup and execution
+    humans started and stopped executions rather than a control system
+no protection or scheduling
+    memory was fully accessible to the running program
+    there was no hardware or software to prevent a program from overwriting any partr of memory beacuse there was only one program resident at a time
+    no risk of one program interfering with another as protection was not needed
+
+Cpu util problem
+
+Cpu idle during I/O 
+    early computers spent time waiting for slow io devices to complete operations
+    idle time was wasted potential
+humans slower than machines
+
+wasted computation
+    inefficency of CPU waiting led to two major os developments
+        batch scheduling and monitor programs to automate job sequencing
+        multiprogramming: something keeps multiple jobs in memory and switches the cpu to another job when one is blocked, reducing idle time
+
+Keyword: context switching - look it up
+
+proto-operating systems:
+resident monitors and batch systems:
+early response to growing system complexity was the resident monitor
+    - small control prpo
+
+
+
+
+
+
+
+
+FETCH DECODE EXECUTE
