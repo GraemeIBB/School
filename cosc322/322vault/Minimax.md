@@ -1,0 +1,1 @@
+decision rule used in AI, decision theory, combinatorial game theory, statistics, and philosophy for minimizing the possible loss for a worst case (maximum loss) scenerio
