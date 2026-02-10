@@ -19,3 +19,6 @@
 [submodule "cosc315/examples"]
 	path = cosc315/examples
 	url = https://github.com/UBCO-COSC315-W2025T2/examples.git
+[submodule "cosc315/lab-3-launching-programs-as-processes-in-a-shell-GraemeIBB"]
+	path = cosc315/lab-3-launching-programs-as-processes-in-a-shell-GraemeIBB
+	url = https://github.com/UBCO-COSC315-W2025T2/lab-3-launching-programs-as-processes-in-a-shell-GraemeIBB.git
