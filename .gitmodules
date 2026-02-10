@@ -16,3 +16,6 @@
 [submodule "y3s1/cosc-421-project-2025"]
 	path = y3s1/cosc-421-project-2025
 	url = https://github.com/patrikbalazsy/cosc-421-project-2025.git
+[submodule "cosc315/examples"]
+	path = cosc315/examples
+	url = https://github.com/UBCO-COSC315-W2025T2/examples.git

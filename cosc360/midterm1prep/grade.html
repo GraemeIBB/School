@@ -1,0 +1,37 @@
+<style>
+    table{
+        border: 1px solid black
+    }
+    td{
+        border: 1px solid black
+    }
+    #avg{
+        text-align: right;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Courses</th>
+        <th>Grades</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Student1</td>
+        <td>COSC100</td>
+        <td>90%</td>
+    </tr>
+    <tr>
+        <td>COSC101</td>
+        <td>92%</td>
+    </tr>
+    <tr>
+        <td>COSC102</td>
+        <td>95%</td>
+    </tr>
+    <tr>
+        <td id="avg" colspan="3">Average = 93</td>
+    </tr>
+</table>
+
+<!--use tfoot and thead to reduce usage of id and gain bonus points-->

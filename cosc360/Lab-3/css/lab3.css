@@ -1,0 +1,173 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: sans-serif;
+    font-weight: normal;
+    scroll-behavior: smooth;
+    background: #e0e3e6;
+    font-size: 10px;
+}
+
+.layout {
+    max-width: 1440px;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 40px auto;
+    padding: 0 20px;
+    max-width: 767px;
+}
+
+.section {
+    margin: 40px 0;
+    padding: 0 5px;
+}
+
+/* main heading is not working???*/
+.main-heading {
+    font-weight: 500;
+    max-width: 20ch;
+    margin: 80px auto 20px auto;
+    color: #333333;
+}
+
+.heroImage {
+    margin-top: 20px;
+    border-radius: 18px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.caption {
+    color: black;
+}
+
+.copy {
+    color: #4f4f4f;
+    padding-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    position: relative;
+}
+
+form label {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #828282;
+}
+
+form input {
+    border-radius: 10px;
+    height: 45px;
+    background-color: #f2f2f2;
+    width: 100%;
+    border: none;
+    padding: 0 60px 0 15px;
+}
+
+form button {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+card button {
+    border: none;
+}
+
+form button,
+.card button {
+    width: 120px;
+    padding: 9px 20px;
+    background-color: #2d9cdb;
+    border-radius: 10px;
+}
+
+form button:hover,
+.card button:hover {
+    background-color: #2574a1;
+    cursor: pointer;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    padding: 3rem;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+    max-width: 300px;
+    flex: 0 1 300px;
+}
+
+.card h3,
+.card .heading {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.card .text {
+    font-size: 1.4rem;
+}
+
+/* Team Section */
+.teamContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    align-items: start;
+    padding: 0 20px;
+}
+
+.team .heading {
+    color: #eb5757;
+    font-weight: 500;
+}
+
+.team .caption {
+    color: #333333;
+}
+
+.team .metaText {
+    color: #4f4f4f;
+    margin: 20px 0;
+}
+
+.teamImages {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    height: 50vw;
+    gap: 20px;
+}
+
+.teamImage {
+    max-width: 45%;
+}
+
+.personImg {
+    border-radius: 24px;
+    object-fit: cover;
+}
